@@ -1,0 +1,207 @@
+/* Default CSS */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #34495e;
+}
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+
+/* Navbar Section */
+.nav-section {
+    background: #3498db;
+}
+.nav-left {
+    width: 25%;
+    float: left;
+    line-height: 68px;
+    font-size: 1.5rem;
+}
+.nav-left h3{
+    color: white !important;
+    cursor: pointer;
+}
+.nav-right {
+    width: 75%;
+    float: left;
+}
+.nav-right ul li {
+    display: inline-block;
+    border-right: 2px solid white;
+    transition: all .3s;
+    margin-left: -4px;
+}
+.nav-right ul li:hover {
+    background: #2980b9;
+}
+.nav-right ul li:nth-child(1) {
+    border-left: 2px solid white;
+}
+.nav-right ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 68px;
+    font-size: 1.2rem;
+    padding: 0 21px;
+}
+
+/* Slider Section */
+
+.slider-section {
+    background: url(/slider.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.slider-section h1:nth-child(1) {
+    background: rgba(0,0,0,0.3);
+    color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
+.slider-section h1 {
+    padding: 15px 0;
+}
+.slider-section h1:nth-child(2) {
+    background: rgba(52,152,219,.4);
+    color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+/* Service Section */
+
+.service-section h1 {
+    color: #34495e;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+.service-section p {
+    width: 60%;
+    margin: auto;
+    color: grey;
+    margin-bottom: 2rem;
+}
+.service-section {
+    margin: 5rem 0;
+}
+.service-item {
+    width: 31.3%;
+    float: left;
+    border: 2px solid black;
+    margin: 1%;
+    box-sizing: border-box;
+    padding: 25px 16px;
+    border-radius: 5px;
+}
+.service-item i {
+    font-size: 75px;
+}
+.service-item h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.service-item p {
+    color: grey !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+}
+
+/* Portfolio Section */
+
+.portfolio-section {
+    margin-bottom: 5rem;
+}
+.portfolio-section img {
+    width: 80%;
+    margin: auto;
+}
+.portfolio-1 {
+    width: 40%;
+    float: left;
+}
+.portfolio-2 {
+    float: right;
+    width: 60%;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    margin-top: 2.3rem;
+}                   
+.portfolio-2 h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+.portfolio-2 h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.portfolio-2 h4 {
+    margin-top: 0.5rem;
+}
+.portfolio-2 p {
+    margin-top: .3rem;
+    width: 90%;
+}
+.portfolio-2 h3 {
+    margin-top: 1rem;
+}
+.portfolio-2 ul {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background: #34495e;
+}
+.footer-1 {
+    width: 50%;
+    float: left;
+}
+.footer-1 p {
+    color: white !important;
+    line-height: 5rem;
+    font-size: 1.2rem;
+}
+.footer-2 {
+    width: 50%;
+    float: right;
+}
+.footer-2 ul li {
+    display: inline-block;
+}
+.footer-2 ul li a {
+    line-height: 5rem;
+}
+.footer-2 ul li a i {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1.4rem;
+}
